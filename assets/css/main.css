@@ -1,0 +1,29 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+section{
+    padding: 3%;
+}
+
+.kraft-sec{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.kraft-card-img{
+    height: 400px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.kraft-card-title{
+    font-weight: 600;
+}
