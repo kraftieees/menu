@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root{
+    --artistic-font-family: "Pinyon Script", cursive;
+    --primary-font-family: "Lexend", sans-serif;
+    --primary-color: #E8E0D1;
+}
 
 *{
     box-sizing: border-box;
+    font-family: var(--primary-font-family);
+}
+
+h1{
+    font-family: var(--artistic-font-family);
 }
 
 body{
@@ -12,10 +25,12 @@ section{
     padding: 3%;
 }
 
-.kraft-sec{
-    height: 100vh;
-    width: 100vw;
+.kraft-nav{
+    background-color: #E8E0D1 !important;
+}
 
+.kraft-h1{
+    font-weight: 800;
 }
 
 .kraft-card-img{
